@@ -1,0 +1,1 @@
+Keep index.html separate from resume.html for custimzing items such as phone number and email
