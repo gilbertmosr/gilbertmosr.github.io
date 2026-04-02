@@ -15,7 +15,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   color: var(--text);
   background: var(--bg);
   line-height: 1.45;
@@ -36,7 +36,7 @@ header {
 header h1 {
   margin: 0;
   font-family: "Oswald", "Helvetica Neue", Arial, sans-serif;
-  font-size: 30px;
+  font-size: 32px;
   letter-spacing: 0.7px;
   color: var(--accent);
 }
@@ -44,7 +44,7 @@ header h1 {
 header p {
   margin: 4px 0 0;
   font-family: "Oswald", "Helvetica Neue", Arial, sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 1.3px;
   text-transform: uppercase;
   color: var(--muted);
@@ -68,7 +68,7 @@ section {
 section h2 {
   margin: 10px 0;
   font-family: "Oswald", "Helvetica Neue", Arial, sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 0.7px;
   color: var(--accent);
@@ -78,14 +78,14 @@ section h2 {
 
 h3 {
   margin: 12px 0 2px;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.35;
 }
 
 .meta {
   margin: 0 0 8px;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 1.3px;
   text-transform: uppercase;
 }
@@ -100,7 +100,7 @@ li {
 }
 
 .aside h2 {
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .aside p {
@@ -111,7 +111,7 @@ li {
   background: var(--aside-bg);
   padding: 7px 13px;
   border-left: 1px solid var(--border);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.55;
 }
 
@@ -129,12 +129,12 @@ li {
 
 .section-title {
   margin: 8px 0 4px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
 }
 
 .small {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
 }
 
@@ -143,7 +143,7 @@ p {
 }
 
 main {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.55;
 }
 
@@ -188,7 +188,7 @@ a {
 
   body {
     font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.45;
     background: var(--bg);
   }
@@ -202,7 +202,7 @@ a {
   main,
   .aside {
     font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .page {
