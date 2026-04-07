@@ -55,6 +55,7 @@ header p {
   grid-template-columns: minmax(0, 1.65fr) minmax(280px, 1fr);
   gap: 28px;
   align-items: stretch;
+  min-height: 100vh;
 }
 
 main {
@@ -176,7 +177,7 @@ a {
 
 @media print {
   @page {
-    padding: 13mm 0 13mm 0;
+    margin: 0;
   }
 
   html,
@@ -211,6 +212,11 @@ a {
     padding: 0;
   }
 
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
   .layout {
     grid-template-columns: minmax(0, 1.65fr) minmax(280px, 1fr);
     gap: 28px;
@@ -218,11 +224,11 @@ a {
 
   main,
   .aside {
-    padding: 24px 20px;
+    padding: 70px 20px;
   }
 
   .aside {
-    padding: 7px 13px;
+    padding: 70px 13px;
     background: var(--aside-bg);
     border-left: 1px solid var(--border);
   }
@@ -250,6 +256,12 @@ a {
   .subsection .section-title {
     break-after: avoid;
     page-break-after: avoid;
+  }
+
+  .print-break-before {
+    break-before: page;
+    page-break-before: always;
+    padding-top: 70px;
   }
 
   .aside section h2 {
